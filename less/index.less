@@ -1,0 +1,950 @@
+@import "smart-grid.less";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@width1300: 1300px;
+
+html, body{
+    margin:0;
+    padding:0;
+}
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+.wrapper{
+    .wrapper();
+}
+img{
+    max-width:100%;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ul li{
+    list-style:none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+////          HEADER SECTION
+
+header{
+   height:100px;
+   
+   background:#ccc;
+
+    .header-row-block{
+      .row-flex();
+      align-items: center;
+      height:100px;
+
+        .menu-col-block{
+            .col();
+            .size(7);
+           
+
+            .menu-flex{
+                display:flex;
+                
+               
+
+                .logo-blck{
+                   
+                   
+                }
+                .menu-blck{
+                   
+                    display:flex;
+
+                    .menu-ul{
+                        display:flex;
+                        align-items: center;
+                       
+                        
+                        li{
+                           a{
+                               padding:5px 10px;
+                               margin:0 5px;
+                               border-bottom:1px solid #ccc;
+                           }
+                        }
+                       
+                    }
+                }
+            }
+            
+        }
+        .info-col-block{
+            .col();
+            .size(5);
+            
+            
+
+            .info-flex{
+                display:flex;
+                
+                justify-content: space-between;
+                
+                align-items: center;
+
+                .cart-blck{
+                    
+                }
+                .lang-blck{
+                    
+                }
+                .contact-blck{
+                    
+                }
+            }
+            
+        }
+    }
+
+}
+
+
+
+
+/////   SoluțiaSănătății section
+
+.health{
+    padding:50px 0;
+
+    margin:50px 0;
+
+    .health-row-block{
+        .row-flex();
+
+        .health-col-text{
+            .col();
+            .size(7);
+
+            .health-text-blck{
+                padding-top:30px;
+
+                .health-title{
+                   font-size:36px;
+                }
+                .health-subtitle{
+                     padding-top:15px;
+                }
+                .health-p{
+                    padding-top:35px;
+                }
+                .simple{
+                    margin: 0 0 0 auto;
+                    margin-top:50px;
+                    width:150px;
+                    text-align:center;
+
+                    
+                }
+                
+            }
+        }
+        .health-col-slider{
+            .col();
+            .size(5);
+            
+
+            .health-slider-block{
+                  height:450px;
+                  
+                
+            }
+        }
+    }
+}
+
+.site-btn{ 
+    display:inline-block;
+   
+    padding:15px 25px;
+    border:2px solid #000;
+
+  
+}
+
+
+/// About-sup
+
+.about-sup-block{
+
+    .about-sup-row{
+        .row-flex();
+        justify-content:center;
+
+        .about-sup-col{
+            .col();
+            .size(6);
+            
+
+            .about-sup-img-blck{
+                 text-align:center;
+                img{
+
+                }
+            }
+            .about-sup-info{
+                
+                .sup-title{
+                   font-size:24px;
+                   font-weight:bold;
+                   margin-bottom:20px;
+                }
+                .sup-text{
+
+                }
+            }
+
+        }
+    }
+}
+
+// SECTION INFO-FOR
+
+.info-for-block{
+  background:#ccc;
+
+    .main-title-for{
+        text-align:center;
+        font-weight:bold;
+        font-size:32px;
+        padding:50px 0 40px 0;
+
+    }
+    .info-for-row{
+        .row-flex();
+
+        .info-for-col{
+            .col();
+            .size(4);
+            margin-bottom:40px;
+
+            .for-block{
+                 background:#fff;
+
+                .title-for{
+                   text-align:center;
+                   padding:8px 0 22px;
+                }
+                img{
+
+                }
+            }
+        }
+    }
+}
+
+
+/// SECTION BANER
+
+.baner-block{
+
+    .baner-blck{
+
+        .b-title{
+
+        }
+        .t-text{
+
+        }
+    }
+}
+
+/// SECTION PRODUCT
+
+
+
+.products{
+  padding:50px 0;
+  background:#ccc;
+
+    .products-block{
+
+        .products-row{
+              .row-flex();
+
+            .products-col{
+                 .col();
+                 .size(4);
+                 margin:50px 0;
+
+                .products-box{
+                    width:378px;
+                    height:362px;
+                    background:url('/images/fon.png') no-repeat;
+                    background-position:65% 18%;
+                    margin:0 auto;
+                    
+
+                   .products-info-blck{
+                       display:flex;
+                         justify-content: space-between;
+                         padding-left:40px;
+
+                       .rel-for-img{
+                         position:relative;
+                         width:180px;
+                         height:205px;
+                         top:-40;
+
+                         .products-img{
+                           position:absolute;
+                           margin-top:-70px;
+                           width:180px;
+                           height:240px;
+                          
+                         }
+                       }
+                      
+                       .products-info-text-block{
+                            text-align:right;
+                            margin-top:20px;
+
+                            .pr-btn{
+                                background: linear-gradient(207.03deg, rgba(255, 255, 255, 0.0768) -50.31%, rgba(255, 255, 255, 0.2) -3.75%, rgba(255, 255, 255, 0) 83.11%), #8A8A8A;
+                                border-top-left-radius:0.25rem;
+                                border-bottom-left-radius:0.25rem;
+                                box-shadow: -2px 4px 14px rgba(0, 0, 0, 0.25);
+                                font-weight:bold;
+                                color:#fff;
+                                text-align: center;
+                                padding:7px 0;
+
+                                
+                            }
+                            .pr-type{
+                                margin-top:15px;
+                                font-size:20px;
+                                font-weight:bold;
+                                color:#25850F;
+                                padding-right:50px;
+                            }
+                            .pr-gr{
+                                margin-top:10px;
+                                padding-right:50px;
+                            }
+                            .pr-count{
+                                margin-top:10px;
+                                padding-right:50px;
+                            }
+                       }
+                   }
+
+                   .products-buy-blck{
+                       display:flex;
+                       justify-content: space-around;
+                       align-items: center;
+
+                       .pr-price{
+                           font-weight:bold;
+                           font-size:20px;
+                           color: #6D6D6D;
+                       }
+                   }
+
+                   .products-title{
+                       max-width:270px;
+                       font-weight:bold;
+                       font-size:18px;
+                       line-height: 1.2;
+                       margin:0 auto;
+                       margin-bottom:25px;
+                   }
+                }
+
+            }
+        }
+    }
+
+    .livrare{
+        text-align:center;
+        font-size:18px;
+        font-weight:bold;
+        padding-top:20px;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #000;
+    text-align:center;
+    border-bottom:0px solid #ccc;
+    border-radius:0.25rem !important;
+
+}
+.nav-pills .nav-link{
+    margin:0 15px;
+}
+.nav-item a{
+    color: #212121;
+    border-bottom:2px solid #ccc;
+    border-radius:0rem !important;
+}
+.nav{
+    justify-content: center;
+}
+
+// SECTION EMAIL 
+
+.email-block{
+    margin:50px 0;
+
+    .form-block{
+       .row-flex();
+       align-items: center;
+
+        .text-block{
+           .col();
+           .size(6);
+           text-align:right;
+           font-weight: bold;
+           line-height: 1.2;
+           font-size:38px;
+           padding-right:2%;
+        }
+        .input-block{
+            .col();
+            .size(6);
+
+            display:flex;
+
+            input{
+              border:2px solid #000;
+              margin-right:20px;
+
+            }
+            button{
+              height:52px;
+              background:rgba(0,0,0,0.8);
+              color:#fff;
+            }
+            
+        }
+    }
+}
+
+// SECTION PARTENER
+
+.partner{
+
+    .partner-row{
+        .row-flex();
+
+        .partner-col{
+            .col();
+            .size(6);
+
+            .partner-img-blck{
+
+                img{
+                   
+
+                }
+            }
+
+            .partner-text-blck{
+                margin:25px 0;
+
+                .partner-title{
+                  width:100%;
+                  font-size:22px;
+                  font-weight: bold;
+                }
+                .partner-subtitle{
+                    margin:20px 0;
+                }
+                
+            }
+
+            .distr{
+               
+                text-align:right;
+            }
+
+        }
+    }
+}
+
+
+
+// SECTION CONTACT
+
+
+  .contact {
+    margin:50px 0;
+
+      .contact-row {
+          .row-flex();
+
+        .contact-col-text {
+            .col();
+            .size(3);
+        }
+        .contact-col-map {
+            .col();
+            .size(9);
+        }
+        .main-contact-title {
+            font-weight:bold;
+            font-size:18px;
+        }
+        .contact-all-block {
+            
+          .one-location {
+              margin:15px 0;
+          }
+          .point-map {
+              font-size:18px;
+              font-weight: bold;
+          }
+          .location {
+            font-size:18px;
+            
+          }
+        }
+        .map-block {
+            border:1px solid #ccc;
+          iframe {
+          }
+        }
+      }
+    
+  }
+
+
+// SECTION SLIDER
+
+.reviews-block{
+
+    margin: 180px 0 180px 0;
+
+    .reviews-row{
+      .row-flex();
+
+        .reviews-col{
+            .col();
+            .size(6);
+            .reviews-slider{
+
+                .slider-block{
+                    padding:0 55px;
+
+                    .slider-flex{
+                         .row-flex();
+
+                        .about-client{
+                           .col();
+                           .size(3);
+
+                        }
+                        .about-like-product{
+                            .col();
+                            .size(9);
+                            text-align:left;
+
+                            .about-like-title{
+                                font-weight: bold;
+                            }
+                            .about-like-text{
+                                font-size:17px;
+                            }
+
+                        }
+                    }
+                }
+
+                
+            }
+
+            .reviews-static-title{
+                font-weight: bold;
+                font-size:20px;
+            }
+            .reviews-static-text{
+                font-size:17px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+// SECTION FOOTER
+
+
+
+
+  footer {
+    background: linear-gradient(180deg, #FFFFFF -25.56%, rgba(255, 255, 255, 0) 215.15%), #939393;
+
+      .footer-row {
+          .row-flex();
+
+        .footer-col-menu {
+            .col();
+            .size(7);
+            border-bottom:2px solid #fff;
+        }
+        .footer-col-department {
+            .col();
+            .size(5);
+        }
+        .footer-menu-block-top {
+            display:flex;
+            align-items: center;
+
+          .logo-block {
+              display:flex;
+              align-items: center;
+              margin-left:15px;
+
+              img{
+
+              }
+         
+              .footer-title-logo{
+                font-size:20px;
+                font-weight:bold;
+                padding-right: 10px;
+              }
+
+
+          }
+          ul {
+              display:flex;
+          }
+          li {
+            a {
+              &:hover {}
+              &:active {}
+              &:focus {}
+
+              padding:0 5px;
+            }
+          }
+        }
+        .footer-menu-block-bottom {
+          ul {
+              display:flex;
+          }
+          li {
+            a {
+              &:hover {}
+              &:active {}
+              &:focus {}
+               padding:0 20px;
+            }
+          }
+        }
+        .footer-bottom {
+          .our-logo {
+            &:hover {}
+            &:active {}
+            &:focus {}
+          }
+          img {
+          }
+          .site-name {
+          }
+        }
+        .depart-title {
+        }
+        .footer-contact-block {
+          .tel-blck {
+
+          }
+          .email-blck {
+          }
+          .locatia-blck {
+          }
+          .tel-title {
+            font-weight: bold;
+          }
+          .title {
+          }
+          .local-title {
+            font-weight: bold;
+          }
+        }
+      }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////  PAGE PRODUCT
+
+// SWIPER
+
+
+.product{
+
+    .product-buy{
+
+        .product-row{
+             .row-flex();
+
+            .product-col-slider{
+                  .col();
+                  .size(5);
+
+               
+                     
+
+            }
+
+        
+         .product-col-info-text{
+            .col();
+            .size(7);
+
+            .info-blck{
+
+                .product-title{
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                .product-description{
+                    font-size: 16px;
+                    color: #8B8B8B;
+                }
+                .product-ingredient{
+                    font-size: 16px;
+                    color: #8B8B8B;
+                }
+                .valabil{
+                    color:#949494;
+                }
+                .delivery{
+                   background:#ABABAB;
+                   color:#fff;
+                }
+                .product-buy-blck{
+
+                    .price-block{
+
+                        .price-text{
+
+                        }
+                        .price{
+
+                        }
+                        .buy-btn{
+
+                        }
+                    }
+
+                }
+            }
+         }
+
+        }
+    }
+}
+
+
+// SECTION VALORI
+
+
+  .valori {
+    margin:35px 0 10px 0;
+
+      .valori-row {
+          .row-flex();
+         
+
+
+        .valori-col {
+            .col();
+            .size(5);
+            
+        }
+        .valori-title {
+            font-weight: bold;
+            font-size:24px;
+        }
+        .valori-big-blck {
+            max-width:300px;
+
+          .valori-blck.grey {
+              display:flex;
+              justify-content: space-around;
+              background:#888888;
+          }
+          .valori-blck {
+            display:flex;
+            justify-content: space-around;
+          }
+          .valori-name {
+          }
+          .valor-number {
+          }
+        }
+      }
+    
+  }
+  
+
+// BENEFICII
+
+.beneficii{
+    margin:50px 0;
+
+    .beneficii-row{
+         .row-flex();
+
+        .beneficii-col{
+           .col();
+           .size(6);
+
+            .beneficii-blck{
+
+                .b-title{
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                .b-p{
+                    font-size: 16px;
+                    color: #6C6C6C;
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+/// PAGE BLOG
+
+// tasty
+
+
+  .tasty {
+   
+      .tasty-row {
+          .row-flex();
+          justify-content: space-between;
+
+        .tasty-col {
+           .col();
+           .size(3);
+           margin:10px;
+        }
+        .tasty-block {
+            max-width:351px;
+            background:#BBBBBB;
+            padding:20px;
+
+          img {
+          }
+          .tasty-flex {
+              display:flex;
+              justify-content: space-around;
+              padding:5px 10px 5px 10px;
+              margin:20px 0 7px 0;
+              background:#fff;
+          }
+          .tasty-text {
+            padding:5px 10px 5px 10px;
+            background:#fff;
+          }
+          .tasty-title {
+          }
+          .tasty-date {
+          }
+        }
+      }
+    
+  }
+
+
+
+  // SECTION GALEREIA
+
+  
+  
+  
+
+  .galereia {
+    
+      .galereia-row {
+          display:flex;
+          justify-content: space-around;
+          margin-left:-10px;
+          margin-right:-10px;
+
+          .g-col{
+            margin:10px 10px;
+          }
+
+        .galereia-col-sm {
+            // .col();
+            // .size(1);
+            
+        }
+        .galereia-col-medium {
+            // .col();
+            // .size(4);
+        }
+        .galereia-col-min {
+            // .col();
+            // .size(2);
+        }
+        .galereia-col-big {
+            // .col();
+            // .size(5);
+        }
+        img {
+        }
+      }
+    
+  }
+
+
+ 
+
+
+
+.debugGrid{
+    display:none;
+    .debug(rgba(255,255,255,0.5), 1px solid #ccc);
+    height:1500px;
+}
